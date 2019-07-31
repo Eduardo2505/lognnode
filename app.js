@@ -401,7 +401,12 @@ app.get('/terms', function (req, res) {
 app.use(express.static('./public'));
 
 // start web services
-https.createServer(options, app).listen(port, function () {
-   console.log('Started!');
+// https.createServer(options, app).listen(port, function () {
+//    console.log('Started!');
+// });
+
+app.listen(port, () => {
+  console.log('Escuchando puerto: ', process.env.PORT);
 });
+
 console.log("Server listening on port " + port);
