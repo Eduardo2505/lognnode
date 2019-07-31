@@ -1,4 +1,5 @@
-
-
-
-node_modules/
+auth.js
+config.js
+/ssl
+*DS_Store
+node_modules
