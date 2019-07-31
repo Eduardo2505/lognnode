@@ -1,6 +1,6 @@
 // config/database.js
 module.exports = {
 
-    'url' : 'mongodb://localhost/excap' 
+    'url' : 'mongodb://localhost:27017/excap' 
 
 };
